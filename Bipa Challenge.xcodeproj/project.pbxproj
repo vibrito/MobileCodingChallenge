@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB29083A2C29C2F200E03BE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2908392C29C2F200E03BE4 /* AppDelegate.swift */; };
+		EB29083C2C29C2F200E03BE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29083B2C29C2F200E03BE4 /* SceneDelegate.swift */; };
+		EB29083E2C29C2F200E03BE4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29083D2C29C2F200E03BE4 /* HomeViewController.swift */; };
+		EB2908432C29C2F400E03BE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2908422C29C2F400E03BE4 /* Assets.xcassets */; };
+		EB2908462C29C2F400E03BE4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EB2908452C29C2F400E03BE4 /* Base */; };
+		EB2908512C29C2F400E03BE4 /* Bipa_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2908502C29C2F400E03BE4 /* Bipa_ChallengeTests.swift */; };
+		EB29085B2C29C2F400E03BE4 /* Bipa_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29085A2C29C2F400E03BE4 /* Bipa_ChallengeUITests.swift */; };
+		EB29085D2C29C2F400E03BE4 /* Bipa_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29085C2C29C2F400E03BE4 /* Bipa_ChallengeUITestsLaunchTests.swift */; };
+		EB29086E2C29C32000E03BE4 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2908692C29C32000E03BE4 /* Node.swift */; };
+		EB29086F2C29C32000E03BE4 /* LightiningService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29086B2C29C32000E03BE4 /* LightiningService.swift */; };
+		EB2908752C29C49E00E03BE4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2908742C29C49E00E03BE4 /* HomeView.swift */; };
+		EB2908772C29C4AA00E03BE4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2908762C29C4AA00E03BE4 /* HomeViewModel.swift */; };
+		EB29087A2C29C59F00E03BE4 /* HomeViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2908792C29C59F00E03BE4 /* HomeViewProtocol.swift */; };
+		EB29087D2C29C5B600E03BE4 /* HomeViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29087C2C29C5B600E03BE4 /* HomeViewModelProtocol.swift */; };
+		EB29087F2C29C63200E03BE4 /* HomeViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29087E2C29C63200E03BE4 /* HomeViewState.swift */; };
+		EB2908842C29C99000E03BE4 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2908832C29C99000E03BE4 /* Observable.swift */; };
+		EB2908862C29D59300E03BE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2908852C29D59300E03BE4 /* Main.storyboard */; };
+		EB2908882C2A1DA000E03BE4 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2908872C2A1DA000E03BE4 /* HomeCell.swift */; };
+		EB29088A2C2A26C100E03BE4 /* HomeViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2908892C2A26C100E03BE4 /* HomeViewModelMock.swift */; };
+		EB29088E2C2A278200E03BE4 /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29088D2C2A278200E03BE4 /* HomeViewControllerTests.swift */; };
+		EB2908902C2A29A700E03BE4 /* HomeViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29088F2C2A29A700E03BE4 /* HomeViewMock.swift */; };
+		EB2908952C2A2A4B00E03BE4 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2908942C2A2A4B00E03BE4 /* HomeViewModelTests.swift */; };
+		EB2908972C2A2A6C00E03BE4 /* HomeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2908962C2A2A6C00E03BE4 /* HomeViewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB29084D2C29C2F400E03BE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB29082E2C29C2F100E03BE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB2908352C29C2F200E03BE4;
+			remoteInfo = "Bipa Challenge";
+		};
+		EB2908572C29C2F400E03BE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB29082E2C29C2F100E03BE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB2908352C29C2F200E03BE4;
+			remoteInfo = "Bipa Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB2908362C29C2F200E03BE4 /* Bipa Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bipa Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2908392C29C2F200E03BE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB29083B2C29C2F200E03BE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB29083D2C29C2F200E03BE4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EB2908422C29C2F400E03BE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB2908452C29C2F400E03BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB2908472C29C2F400E03BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB29084C2C29C2F400E03BE4 /* Bipa ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bipa ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2908502C29C2F400E03BE4 /* Bipa_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bipa_ChallengeTests.swift; sourceTree = "<group>"; };
+		EB2908562C29C2F400E03BE4 /* Bipa ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bipa ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB29085A2C29C2F400E03BE4 /* Bipa_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bipa_ChallengeUITests.swift; sourceTree = "<group>"; };
+		EB29085C2C29C2F400E03BE4 /* Bipa_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bipa_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB2908692C29C32000E03BE4 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		EB29086B2C29C32000E03BE4 /* LightiningService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightiningService.swift; sourceTree = "<group>"; };
+		EB2908742C29C49E00E03BE4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EB2908762C29C4AA00E03BE4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EB2908792C29C59F00E03BE4 /* HomeViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewProtocol.swift; sourceTree = "<group>"; };
+		EB29087C2C29C5B600E03BE4 /* HomeViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelProtocol.swift; sourceTree = "<group>"; };
+		EB29087E2C29C63200E03BE4 /* HomeViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewState.swift; sourceTree = "<group>"; };
+		EB2908832C29C99000E03BE4 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		EB2908852C29D59300E03BE4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EB2908872C2A1DA000E03BE4 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		EB2908892C2A26C100E03BE4 /* HomeViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelMock.swift; sourceTree = "<group>"; };
+		EB29088D2C2A278200E03BE4 /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
+		EB29088F2C2A29A700E03BE4 /* HomeViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewMock.swift; sourceTree = "<group>"; };
+		EB2908942C2A2A4B00E03BE4 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		EB2908962C2A2A6C00E03BE4 /* HomeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB2908332C29C2F200E03BE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2908492C29C2F400E03BE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2908532C29C2F400E03BE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB29082D2C29C2F100E03BE4 = {
+			isa = PBXGroup;
+			children = (
+				EB2908382C29C2F200E03BE4 /* Bipa Challenge */,
+				EB29084F2C29C2F400E03BE4 /* Bipa ChallengeTests */,
+				EB2908592C29C2F400E03BE4 /* Bipa ChallengeUITests */,
+				EB2908372C29C2F200E03BE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB2908372C29C2F200E03BE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB2908362C29C2F200E03BE4 /* Bipa Challenge.app */,
+				EB29084C2C29C2F400E03BE4 /* Bipa ChallengeTests.xctest */,
+				EB2908562C29C2F400E03BE4 /* Bipa ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB2908382C29C2F200E03BE4 /* Bipa Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				EB2908702C29C3CB00E03BE4 /* Features */,
+				EB29086D2C29C32000E03BE4 /* Infraestructure */,
+				EB2908392C29C2F200E03BE4 /* AppDelegate.swift */,
+				EB29083B2C29C2F200E03BE4 /* SceneDelegate.swift */,
+				EB2908422C29C2F400E03BE4 /* Assets.xcassets */,
+				EB2908442C29C2F400E03BE4 /* LaunchScreen.storyboard */,
+				EB2908852C29D59300E03BE4 /* Main.storyboard */,
+				EB2908472C29C2F400E03BE4 /* Info.plist */,
+			);
+			path = "Bipa Challenge";
+			sourceTree = "<group>";
+		};
+		EB29084F2C29C2F400E03BE4 /* Bipa ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB2908912C2A29AD00E03BE4 /* Mocks */,
+				EB2908502C29C2F400E03BE4 /* Bipa_ChallengeTests.swift */,
+				EB29088D2C2A278200E03BE4 /* HomeViewControllerTests.swift */,
+				EB2908942C2A2A4B00E03BE4 /* HomeViewModelTests.swift */,
+				EB2908962C2A2A6C00E03BE4 /* HomeViewTests.swift */,
+			);
+			path = "Bipa ChallengeTests";
+			sourceTree = "<group>";
+		};
+		EB2908592C29C2F400E03BE4 /* Bipa ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB29085A2C29C2F400E03BE4 /* Bipa_ChallengeUITests.swift */,
+				EB29085C2C29C2F400E03BE4 /* Bipa_ChallengeUITestsLaunchTests.swift */,
+			);
+			path = "Bipa ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		EB29086A2C29C32000E03BE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB2908692C29C32000E03BE4 /* Node.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB29086C2C29C32000E03BE4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EB29086B2C29C32000E03BE4 /* LightiningService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EB29086D2C29C32000E03BE4 /* Infraestructure */ = {
+			isa = PBXGroup;
+			children = (
+				EB2908802C29C76500E03BE4 /* Helpers */,
+				EB29086A2C29C32000E03BE4 /* Model */,
+				EB29086C2C29C32000E03BE4 /* Service */,
+			);
+			path = Infraestructure;
+			sourceTree = "<group>";
+		};
+		EB2908702C29C3CB00E03BE4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				EB2908732C29C47700E03BE4 /* ViewModel */,
+				EB2908722C29C46E00E03BE4 /* View */,
+				EB2908712C29C46400E03BE4 /* ViewController */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		EB2908712C29C46400E03BE4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB29083D2C29C2F200E03BE4 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EB2908722C29C46E00E03BE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB2908742C29C49E00E03BE4 /* HomeView.swift */,
+				EB2908792C29C59F00E03BE4 /* HomeViewProtocol.swift */,
+				EB29087E2C29C63200E03BE4 /* HomeViewState.swift */,
+				EB2908872C2A1DA000E03BE4 /* HomeCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB2908732C29C47700E03BE4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EB2908762C29C4AA00E03BE4 /* HomeViewModel.swift */,
+				EB29087C2C29C5B600E03BE4 /* HomeViewModelProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EB2908802C29C76500E03BE4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EB2908832C29C99000E03BE4 /* Observable.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EB2908912C2A29AD00E03BE4 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				EB29088F2C2A29A700E03BE4 /* HomeViewMock.swift */,
+				EB2908892C2A26C100E03BE4 /* HomeViewModelMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB2908352C29C2F200E03BE4 /* Bipa Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2908602C29C2F400E03BE4 /* Build configuration list for PBXNativeTarget "Bipa Challenge" */;
+			buildPhases = (
+				EB2908322C29C2F200E03BE4 /* Sources */,
+				EB2908332C29C2F200E03BE4 /* Frameworks */,
+				EB2908342C29C2F200E03BE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bipa Challenge";
+			productName = "Bipa Challenge";
+			productReference = EB2908362C29C2F200E03BE4 /* Bipa Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB29084B2C29C2F400E03BE4 /* Bipa ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2908632C29C2F400E03BE4 /* Build configuration list for PBXNativeTarget "Bipa ChallengeTests" */;
+			buildPhases = (
+				EB2908482C29C2F400E03BE4 /* Sources */,
+				EB2908492C29C2F400E03BE4 /* Frameworks */,
+				EB29084A2C29C2F400E03BE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB29084E2C29C2F400E03BE4 /* PBXTargetDependency */,
+			);
+			name = "Bipa ChallengeTests";
+			productName = "Bipa ChallengeTests";
+			productReference = EB29084C2C29C2F400E03BE4 /* Bipa ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB2908552C29C2F400E03BE4 /* Bipa ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2908662C29C2F400E03BE4 /* Build configuration list for PBXNativeTarget "Bipa ChallengeUITests" */;
+			buildPhases = (
+				EB2908522C29C2F400E03BE4 /* Sources */,
+				EB2908532C29C2F400E03BE4 /* Frameworks */,
+				EB2908542C29C2F400E03BE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB2908582C29C2F400E03BE4 /* PBXTargetDependency */,
+			);
+			name = "Bipa ChallengeUITests";
+			productName = "Bipa ChallengeUITests";
+			productReference = EB2908562C29C2F400E03BE4 /* Bipa ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB29082E2C29C2F100E03BE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EB2908352C29C2F200E03BE4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EB29084B2C29C2F400E03BE4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EB2908352C29C2F200E03BE4;
+					};
+					EB2908552C29C2F400E03BE4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EB2908352C29C2F200E03BE4;
+					};
+				};
+			};
+			buildConfigurationList = EB2908312C29C2F100E03BE4 /* Build configuration list for PBXProject "Bipa Challenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB29082D2C29C2F100E03BE4;
+			productRefGroup = EB2908372C29C2F200E03BE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB2908352C29C2F200E03BE4 /* Bipa Challenge */,
+				EB29084B2C29C2F400E03BE4 /* Bipa ChallengeTests */,
+				EB2908552C29C2F400E03BE4 /* Bipa ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB2908342C29C2F200E03BE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2908862C29D59300E03BE4 /* Main.storyboard in Resources */,
+				EB2908432C29C2F400E03BE4 /* Assets.xcassets in Resources */,
+				EB2908462C29C2F400E03BE4 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB29084A2C29C2F400E03BE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2908542C29C2F400E03BE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB2908322C29C2F200E03BE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB29087D2C29C5B600E03BE4 /* HomeViewModelProtocol.swift in Sources */,
+				EB29083E2C29C2F200E03BE4 /* HomeViewController.swift in Sources */,
+				EB29083A2C29C2F200E03BE4 /* AppDelegate.swift in Sources */,
+				EB2908772C29C4AA00E03BE4 /* HomeViewModel.swift in Sources */,
+				EB2908842C29C99000E03BE4 /* Observable.swift in Sources */,
+				EB29083C2C29C2F200E03BE4 /* SceneDelegate.swift in Sources */,
+				EB2908752C29C49E00E03BE4 /* HomeView.swift in Sources */,
+				EB29086E2C29C32000E03BE4 /* Node.swift in Sources */,
+				EB29086F2C29C32000E03BE4 /* LightiningService.swift in Sources */,
+				EB29087A2C29C59F00E03BE4 /* HomeViewProtocol.swift in Sources */,
+				EB2908882C2A1DA000E03BE4 /* HomeCell.swift in Sources */,
+				EB29087F2C29C63200E03BE4 /* HomeViewState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2908482C29C2F400E03BE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2908902C2A29A700E03BE4 /* HomeViewMock.swift in Sources */,
+				EB29088A2C2A26C100E03BE4 /* HomeViewModelMock.swift in Sources */,
+				EB2908512C29C2F400E03BE4 /* Bipa_ChallengeTests.swift in Sources */,
+				EB2908972C2A2A6C00E03BE4 /* HomeViewTests.swift in Sources */,
+				EB29088E2C2A278200E03BE4 /* HomeViewControllerTests.swift in Sources */,
+				EB2908952C2A2A4B00E03BE4 /* HomeViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2908522C29C2F400E03BE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB29085D2C29C2F400E03BE4 /* Bipa_ChallengeUITestsLaunchTests.swift in Sources */,
+				EB29085B2C29C2F400E03BE4 /* Bipa_ChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB29084E2C29C2F400E03BE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB2908352C29C2F200E03BE4 /* Bipa Challenge */;
+			targetProxy = EB29084D2C29C2F400E03BE4 /* PBXContainerItemProxy */;
+		};
+		EB2908582C29C2F400E03BE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB2908352C29C2F200E03BE4 /* Bipa Challenge */;
+			targetProxy = EB2908572C29C2F400E03BE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB2908442C29C2F400E03BE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB2908452C29C2F400E03BE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB29085E2C29C2F400E03BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB29085F2C29C2F400E03BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB2908612C29C2F400E03BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4L6C6JGYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bipa Challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibrito.Bipa-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB2908622C29C2F400E03BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4L6C6JGYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bipa Challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibrito.Bipa-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB2908642C29C2F400E03BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4L6C6JGYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibrito.Bipa-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bipa Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bipa Challenge";
+			};
+			name = Debug;
+		};
+		EB2908652C29C2F400E03BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4L6C6JGYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibrito.Bipa-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bipa Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bipa Challenge";
+			};
+			name = Release;
+		};
+		EB2908672C29C2F400E03BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4L6C6JGYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibrito.Bipa-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bipa Challenge";
+			};
+			name = Debug;
+		};
+		EB2908682C29C2F400E03BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4L6C6JGYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibrito.Bipa-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bipa Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB2908312C29C2F100E03BE4 /* Build configuration list for PBXProject "Bipa Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB29085E2C29C2F400E03BE4 /* Debug */,
+				EB29085F2C29C2F400E03BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB2908602C29C2F400E03BE4 /* Build configuration list for PBXNativeTarget "Bipa Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2908612C29C2F400E03BE4 /* Debug */,
+				EB2908622C29C2F400E03BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB2908632C29C2F400E03BE4 /* Build configuration list for PBXNativeTarget "Bipa ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2908642C29C2F400E03BE4 /* Debug */,
+				EB2908652C29C2F400E03BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB2908662C29C2F400E03BE4 /* Build configuration list for PBXNativeTarget "Bipa ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2908672C29C2F400E03BE4 /* Debug */,
+				EB2908682C29C2F400E03BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB29082E2C29C2F100E03BE4 /* Project object */;
+}
