@@ -12,6 +12,7 @@ import UIKit
 final class HomeViewMock: UIView {
     private(set) var perfomLoadDataCount = 0
     private(set) var perfomShowLoading = 0
+    var pullToRefreshTrigged: (() -> Void)?
 }
 
 extension HomeViewMock: HomeViewProtocol {
